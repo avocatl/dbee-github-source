@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS items (
-    id PRIMARY KEY AUTO_INCREMENT,
-    `name` varchar(100) NOT NULL,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    display VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
-INSERT INTO items (`name`) VALUES ("An example item!");
+INSERT INTO items (display) VALUES ("An example item!");
