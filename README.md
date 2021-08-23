@@ -10,7 +10,9 @@ details you must provide the following env variables.
 
 :warning: Note that currently only MySQL is supported as database.
 
-`schema` is the same name as provided in your folder structure (no need to uppercase).
+`schema` is the same name as database in your folder structure (no need to uppercase).
+
+DBee will read the values as specicied here:
 
 ```
 DB_USERNAME_{SCHEMA}=root
